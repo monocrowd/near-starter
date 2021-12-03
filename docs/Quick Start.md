@@ -31,6 +31,7 @@ Quick Start
             ![](images/deploy.png)
 
          - You can found the account in `neardev` folder also
+         
             ![](images/neardev.png)
 
    - interact with the contract using near-cli
