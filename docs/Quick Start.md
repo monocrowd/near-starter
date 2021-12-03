@@ -10,6 +10,7 @@ Quick Start
 - Fastest way to create an skaffold for near project is using `create-near-app`
    - you can run below command to create an project with React frontend and Rust contract
       - `npx create-near-app --frontend=react --contract=rust <your_app>`
+      
          ![](images/project_structure.png)
 
    - `contract` will be the rust near contract source
