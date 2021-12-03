@@ -10,11 +10,13 @@ Quick Start
 - Fastest way to create an skaffold for near project is using `create-near-app`
    - you can run below command to create an project with React frontend and Rust contract
       - `npx create-near-app --frontend=react --contract=rust <your_app>`
-      ![](images/project_structure.png)
+         ![](images/project_structure.png)
+
    - `contract` will be the rust near contract source
    - `src` will be the react frontend
-   - `package.json` will have useful commandsﬁ
+   - `package.json` will have useful commands
       ![](images/commands.png)
+
 - Let's see what is the generate rust contract
    ![](images/contract.png)
    - It defined an simple greeting contract with struct `Welcome`
@@ -26,8 +28,10 @@ Quick Start
       - `npm run dev:deploy:contract`
          - It will create an dev near account on testnet and deploy the contract to it
             ![](images/deploy.png)
+
          - You can found the account in `neardev` folder also
             ![](images/neardev.png)
+
    - interact with the contract using near-cli
       - set the dev account in `neardev/dev-account` to env variable 
          - `source neardev/dev-account.env`
@@ -43,5 +47,5 @@ Quick Start
             - you can create one in https://wallet.testnet.near.org/
       - After login
          - It will have `Change greeting` which will call our contract
-            ![](images/frontend.png)
+            ![](images/frontend_2.png)
 - Happy Hacking!
