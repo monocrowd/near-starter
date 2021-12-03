@@ -1,7 +1,4 @@
-near-starter
-==================
-
-Quick Start
+NEAR APP Quick Start
 ===========
 - Install prerequisites
    - Node
