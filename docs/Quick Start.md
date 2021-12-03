@@ -16,10 +16,13 @@ Quick Start
    - `contract` will be the rust near contract source
    - `src` will be the react frontend
    - `package.json` will have useful commands
+   
       ![](images/commands.png)
 
 - Let's see what is the generate rust contract
+
    ![](images/contract.png)
+   
    - It defined an simple greeting contract with struct `Welcome`
       - it demo an `update` and `view` methods of an near contract
    - We can modify to our own later
@@ -28,6 +31,7 @@ Quick Start
       - `npm run build:contract`
       - `npm run dev:deploy:contract`
          - It will create an dev near account on testnet and deploy the contract to it
+         
             ![](images/deploy.png)
 
          - You can found the account in `neardev` folder also
@@ -44,10 +48,12 @@ Quick Start
 - Let's Start our frontend in development mode
    - `npm run dev`
       - It will automatically open your browser
-         ![](images/frontend.png)
+      
+         ![](images/frontend.png)         
          - if you don't have testnet account
             - you can create one in https://wallet.testnet.near.org/
       - After login
          - It will have `Change greeting` which will call our contract
+
             ![](images/frontend_2.png)
 - Happy Hacking!
